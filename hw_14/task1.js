@@ -2,4 +2,4 @@
 
 let temp = [0, 14, -5, 7, -2, 11, 6, -2]
 
-let result = temp.every((value, index, array) => value > 0 ? document.write('Всі показники є більшими за 10 градусів') : document.write('Не всі показники є більшими за 10 градусів'))
+let result = temp.every((value) => value > 0 ? document.write('Всі показники є більшими за 10 градусів') : document.write('Не всі показники є більшими за 10 градусів'))
